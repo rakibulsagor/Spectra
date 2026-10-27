@@ -1,0 +1,27 @@
+[package]
+name = "spectra"
+version = "0.1.0"
+edition = "2021"
+authors = ["rakibulsagor", "d4rkman"]
+description = "Spectra: Privacy-focused native Linux Telegram client inspired by AyuGram"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+gtk4 = "0.9"
+adw = { package = "libadwaita", version = "0.7" }
+glib = "0.20"
+tokio = { version = "1.40", features = ["full"] }
+async-channel = "2.3"
+rusqlite = { version = "0.32", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+grammers-client = "0.11"
+grammers-mtsender = "0.11"
+grammers-session = "0.11"
+grammers-tl-types = "0.11"
+anyhow = "1.0"
+thiserror = "1.0"
+directories = "5.0"

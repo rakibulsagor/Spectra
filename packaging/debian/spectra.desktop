@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Spectra
+Comment=Native Privacy-Focused Telegram Client
+Exec=spectra %u
+Icon=spectra
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;Chat;
+Keywords=telegram;chat;privacy;ayugram;ghost;
+StartupWMClass=org.spectra.Spectra
+MimeType=x-scheme-handler/tg;

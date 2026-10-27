@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c6ef5"/>
+      <stop offset="100%" stop-color="#7048e8"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e9ecef" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background Squircle -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bgGrad)" filter="url(#shadow)"/>
+
+  <!-- Shield Shape (Anti-Recall & Privacy) -->
+  <path d="M64 24 L96 36 V64 C96 85 82 101 64 107 C46 101 32 85 32 64 V36 Z" 
+        fill="url(#shieldGrad)" />
+
+  <!-- Ghost & Stealth Telegram Plane Motif -->
+  <path d="M48 68 L64 42 L80 68 L64 62 Z" fill="#4c6ef5"/>
+  <circle cx="56" cy="54" r="2.5" fill="#ffffff"/>
+  <circle cx="72" cy="54" r="2.5" fill="#ffffff"/>
+
+  <!-- Accent Ring -->
+  <path d="M64 62 L64 86" stroke="#7048e8" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,12 @@
+Package: spectra
+Version: 0.1.0-1
+Section: net
+Priority: optional
+Architecture: amd64
+Depends: libc6 (>= 2.34), libgtk-4-1 (>= 4.6), libadwaita-1-0 (>= 1.4), libssl3 (>= 3.0)
+Maintainer: rakibulsagor <rakibulsagor@example.com>
+Description: Native privacy-focused Linux Telegram client inspired by AyuGram
+ Spectra is an independent Linux desktop Telegram client engineered in pure
+ Rust, GTK4, and Libadwaita. It features Ghost Mode (read-receipt suppression,
+ stealth typing, presence blocking), Anti-Recall local SQLite message preservation,
+ Anti-Edit revision history tracking, and restricted channel media protection.
